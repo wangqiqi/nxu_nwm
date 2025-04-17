@@ -1,0 +1,30 @@
+#ifndef __NXU_NWM_GCONFIG_H__
+#define __NXU_NWM_GCONFIG_H__
+
+#define NWM_PROJECT_NAME "${CMAKE_PROJECT_NAME}"
+
+/* 版本信息 */
+#define NWM_VERSION "${PROJECT_VERSION}"
+
+/* md5 信息 */
+#define NWM_COMMIT "${GIT_COMMIT_MD5}"
+
+/* 编译日期和时间 */
+#define NWM_DATETIME "${BUILDDATETIME}"
+
+/* 默认模型的路径 */
+#define NWM_MODEL_DEFAULT "models/nwm.weights"
+
+/* 是否要使用 GPU */
+#cmakedefine USE_GPU
+
+/* debug信息 */
+#cmakedefine BUILD_DEBUG
+
+/* 显示内部的处理时间 */
+#cmakedefine SHOW_TIME
+
+/* 显示内部的打印信息 */
+#cmakedefine SHOW_INFO
+
+#endif // __NXU_NWM_GCONFIG_H__
