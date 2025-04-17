@@ -3,10 +3,13 @@
 > 主要应用领域：
 > 明厨亮灶：不戴口罩检测
 
+![](assets/nwm.png)
 
 
+模型见： 
+[百度网盘](https://pan.baidu.com/s/1YcG0zW1YbWbaiOq_lGNO7g?pwd=8dve)
 
-
+提取码: 8dve 
 
 
 ## 构建编译
